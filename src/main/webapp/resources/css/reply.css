@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+html, body{
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	font-family: 'proxima-nova','Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+.topWrapper{
+	top:0;
+	left:0;
+	width:100%;
+	display:inline-block;
+	text-align:center;
+	padding:5px 0;
+	border-bottom:1px solid lightgray;
+	background-color:#fff;
+	position:fixed;
+}
+
+.navicon{
+	width:25px;
+}
+
+.iconWrapper{
+	margin:0;
+	padding:0;
+	float:left;
+	width:15%;
+	margin:3px 3px;
+}
+
+.body{
+	margin-top:45px;
+}
+
+.addComment{
+	height:40px;
+	line-height:40px;
+	border-top:1px solid #f0f0f0;
+	margin:15px 0;
+	padding:15px 0;
+}
+
+.textbox{
+	width:85%;
+	height:30px;
+	border:1px solid #d3d3d3;
+	margin:auto;
+	padding:0;
+	border-radius:3px;
+}
+
+.text{
+	width:83%;
+	height:30px;
+	margin:0;
+	margin-left:10px;
+	padding:0;
+	border:none;
+	font-size:1em;
+	font-weight:300;
+}
+
+.commentPostBtn{
+	height:30px;
+	line-height:30px;
+	margin-right:10px;
+	font-size:1.1em;
+	font-weight:600;
+	color:rgb(150,12,63);
+	float:right;
+}
+
+.form{
+	width:100%;
+}
+
+.commentInfo{
+	width:95%;
+	margin:10px auto;
+}
+
+.memberId, .comment, .aromas{
+	display:inline-block;
+	font-size:0.9em;
+}
+
+.memberId{
+	font-weight:500;
+}
+
+.profImgWrapper{
+	display:inline-block;
+}
+
+.profImg{
+	width:30px;
+	height:30px;
+	margin:10px;
+	margin-bottom:0;
+	border-radius:50%;
+}

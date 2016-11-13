@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+a{
+	color:black;
+	text-decoration:none;
+}
+
+.alarmWrapper{
+	width:100%;
+	padding:10px;
+	border-bottom:1px solid #d0d0d0;
+}
+
+.nickName, .content, .comment{
+	display:inline-block;
+}
+
+.time{
+	float:right;
+	margin-right:30px;
+	font-size:0.9em;
+	color:#7f7f7f;
+	vertical-align:sub;
+}
+
+.comment{
+	vertical-align:super;
+	width:65%;
+}
+
+.content{
+	margin-top:5px;
+}
+
+.nickName{
+	font-weight:600;
+}
+
+.profImgWrapper{
+	display:inline-block;
+}
+
+.profImg{
+	width:30px;
+	height:30px;
+	margin-right:5px;
+	border-radius:50%;
+}

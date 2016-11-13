@@ -1,0 +1,144 @@
+@CHARSET "UTF-8";
+
+.profileInfoWrapper{
+	width:95%;
+	height:170px;
+	margin:7px auto;
+}
+
+.prImgWrapper{
+	display:inline-block;
+}
+
+.prNick, .prName{
+	height:30px;
+	line-height:30px;
+	font-weight:600;
+}
+
+.prNick{
+	font-size:1.2em;
+	text-align:center;
+}
+
+.prImg{
+	width:60px;
+	height:60px;
+	margin:10px;
+	border-radius:50%;
+}
+
+.numbersAndBtn{
+	width:70%;
+	display:inline-block;
+}
+
+.numbers{
+	width:100%;
+	padding-bottom:20px;
+	text-align:center;
+}
+
+.posts, .followers, .following{
+	display:inline-block;
+	width:30%;
+	margin:auto;
+	text-align:center;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+.number{
+	font-weight:500;
+}
+
+.numText{
+	color:#d0d0d0;
+	font-size:0.8em;
+}
+
+.editProfileBtn{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	margin-bottom:-20px;
+	color:#fff;
+	background-color:rgb(150,12,63);
+	border-radius:3px;
+	font-weight:500;
+	text-align:center;
+	display:inline-block;
+}
+
+.followBtn{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	margin-bottom:-20px;
+	color:rgb(150,12,63);
+	border:1px solid rgb(150,12,63);
+	border-radius:3px;
+	font-weight:500;
+	text-align:center;
+	display:inline-block;
+}
+
+.unfollowBtn{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	margin-bottom:-20px;
+	color:#fff;
+	background-color:#66c647;
+	border-radius:3px;
+	font-weight:500;
+	text-align:center;
+	display:inline-block;
+}
+
+.logoutBtnWrapper{
+	width:100%;
+}
+
+.logoutBtn{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	margin: 40px auto;
+	color:#fff;
+	background-color:#b3b3b3;
+	border-radius:3px;
+	font-weight:500;
+	text-align:center;
+	display:inline-block;
+}
+
+.prName{
+	margin-left:15px;
+	font-size:1.2em;
+}
+
+.searchImgBox{
+	width:100%;
+}
+
+.searchImgWrapper{
+	float:left;
+	max-height:90px;
+	overflow:hidden;
+	line-height:90px;
+}
+
+.searchImg{
+	/* height:130px; */
+	width:100%;
+	margin:auto 0;
+	padding:0;
+}
+
+#pic{
+	display:none;
+}
